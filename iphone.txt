@@ -1,0 +1,39 @@
++-------------------------+
+|         Device          |
++-------------------------+
+| - model: string         |
+| - color: string         |
+| - storage: int          |
+| - battery_life: int     |
++-------------------------+
+| + get_model(): string   |
+| + set_model(model: string): void|
+| + get_color(): string   |
+| + set_color(color: string): void|
+| + get_storage(): int    |
+| + set_storage(storage: int): void|
+| + get_battery_life(): int |
+| + set_battery_life(battery: int): void|
+| + power_on(): void      |
+| + power_off(): void     |
++-------------------------+
+            ^
+            |
+            |
+            |
++-------------------------+
+|       SmartPhone        |
++-------------------------+
+| - operating_system: string |
+| - mobile_network: string   |
++-------------------------+
+| + get_os(): string      |
+| + set_os(os: string): void|
+| + get_mobile_network(): string |
+| + set_mobile_network(network: string): void|
+| + make_call(number: string): void |
+| + send_message(number: string, message: string): void|
+| + take_photo(): void    |
+| + play_music(): void    |
+| + browse_internet(url: string): void |
++-------------------------+
